@@ -4,8 +4,8 @@ solana_exporter exports basic monitoring data from a Solana node.
 
 <img src="https://i.imgur.com/2pIXLyU.png" width="550px" alt="" />
 
-Docker images are available on [Docker Hub](https://hub.docker.com/r/certusone/solana_exporter).
-Start the exporter: `sudo docker run -d -e SOLANA_RPC_ADDR=http://127.0.0.1:8899 -e LISTEN_ADDR=:9101 --net host --name solana_exporter certusone/solana_exporter`
+Docker images are available on [Docker Hub](https://hub.docker.com/r/certusone/solana_exporter). \
+Run the exporter: `sudo docker run -d -e SOLANA_RPC_ADDR=http://127.0.0.1:8899 -e LISTEN_ADDR=:9101 --net host --name solana_exporter certusone/solana_exporter` \
 You can change `SOLANA_RPC_ADDR` and `LISTEN_ADDR` to values you want.
 ## Metrics
 
